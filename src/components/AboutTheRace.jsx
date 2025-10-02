@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import zoomImg from "../assets/zoomimg2.jpg"; // replace with fp8.jpg if that's the one you want
+import zoomImg from "../assets/zoomimg2.jpg"; 
 
 const AboutTheRace = () => {
   const imageRef = useRef(null);
@@ -79,11 +79,10 @@ const AboutTheRace = () => {
   );
 };
 
-/* ===== Styles ===== */
 
 const aboutSectionStyle = {
   minHeight: "100vh",
-  background: "linear-gradient(180deg, #00a67e 0%, #ffffff 100%)", // ✅ gradient like screenshot
+  background: "linear-gradient(180deg, #00a67e 0%, #ffffff 100%)", 
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -141,7 +140,7 @@ const imageSectionStyle = {
   alignItems: "center",
   justifyContent: "center",
   overflow: "hidden",
-  background: "#fff", // ✅ matches screenshot white floor
+  background: "#fff", 
 };
 
 const imageStyle = {

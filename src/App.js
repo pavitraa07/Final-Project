@@ -18,14 +18,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      {/* General SEO Meta Tags */}
       <Helmet>
         <title>My React App | Welcome</title>
         <meta name="description" content="Welcome to My React App showcasing projects, speakers, and more." />
         <meta name="keywords" content="React, SEO, Projects, Speakers, Sample Things" />
         <meta name="author" content="Pavitra B S" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* Open Graph for social sharing */}
         <meta property="og:title" content="My React App" />
         <meta property="og:description" content="Showcasing projects, speakers, and fun interactive components." />
         <meta property="og:type" content="website" />
